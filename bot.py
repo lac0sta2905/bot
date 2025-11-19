@@ -149,7 +149,7 @@ async def unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Неизвестная команда.")
 
 def main():
-    application = ApplicationBuilder().token("7449302077:AAEcgPw2Xdu62JtJ4gtxHs05q5UFZBykkeQ").build()
+    application = ApplicationBuilder().token("7178485200:AAGlT5EjLDzvuBZrq3Xba4Bc2pef4fgctG0").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_command))
